@@ -1,0 +1,14 @@
+Professor Adalto. @assparremberger
+
+Oracle Academy;
+Introdução à banco de dados: história, tipos, definições, conceitos;
+Banco de Dados Relacional;
+SGBD;
+Normalização de dados;
+Modelo Entidade Relacionamento;
+Diagrama de Entidade Relacionamento;
+SQL: conceitos, funcionalidades, operações;
+Linguagem de definição de dados: DDL (Data Definition Langugage);
+Linguagem de manipulação de dados: DML (Data Manipulation Language);
+Linguagem de consulta de dados: DQL (Data Query Lenguage);
+Identificar e aplicar melhorias em comandos SQL.
