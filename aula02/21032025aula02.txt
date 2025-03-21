@@ -1,3 +1,9 @@
 aula02 - BD
 
 estrutura = esquema
+
+modelo conceitual = modelo de dados abstrato, que descreve a estrutura de um banco de dados de forma independente de um SGBD particular.
+
+atributo composto, é quando um atributo se divide em outros atributos, exemplo: Nome => [primeiroNome, nomeMeio, ultimoNome] 
+
+atributo derivado, não é necessário guardar ele, pois o valor poderá ser obtido de outra maneira.
