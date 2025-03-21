@@ -1,0 +1,3 @@
+aula02 - BD
+
+estrutura = esquema
