@@ -1,0 +1,15 @@
+1. Como um banco de dados realcional organiza os dados?
+
+Um RDB organiza os dados a partir de colunas e linhas.
+
+2. Quais são os princípios de um sistema de gestão de banco de dados?
+
+Ele tem o princípio de facilitar a manipulação de dados em um BD.
+
+3. Quais são os quatro tipos principais de ações que envolvem bando de dados?
+
+Create, Update, Read and Delete(CRUD).
+
+4. Caracterize a arquitetura de um banco de dados?
+
+
