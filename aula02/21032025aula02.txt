@@ -1,4 +1,6 @@
-aula02 - BD
+aula02 - BDI
+
+https://pt.stackoverflow.com/questions/26119/para-abstra%C3%A7%C3%A3o-de-banco-de-dados-devo-utilizar-nome-de-colunas-em-mai%C3%BAsculo-ou
 
 estrutura = esquema
 
