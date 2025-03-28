@@ -1,0 +1,14 @@
+aula03 - BDI
+
+Código de barras é um var char, o mesmo se aplica a cpf's em bd.
+64 bits não é o dobro de 32 bits, é 33 bits.
+
+Linha = Tupla
+Cabeçalho(1ª linha) = Atributo
+Tabela = Relação
+
+
+Um valor atômico em um BD é um valor de domímio que é indivisível.
+
+Foreign Key;
+Primary Key.
