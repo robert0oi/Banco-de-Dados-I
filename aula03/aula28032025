@@ -10,5 +10,9 @@ Tabela = Relação
 
 Um valor atômico em um BD é um valor de domímio que é indivisível.
 
-Foreign Key;
-Primary Key.
+Foreign Key(Chave Estrangeira, que vem de outra tabela, relação.);
+Primary Key(Chave Primaria.).
+Chaves primarias Simples e Compostas(duas colunas ou mais para formarem a Chave Primaria).
+
+Tabela N para N sem nome, cria-se um nome entre as duas tabelas, em ordem alfabética.
+Exemplo: Produto tem relação com Pedido, assim gerará outra tabela com o seu nome pedido_produto.
