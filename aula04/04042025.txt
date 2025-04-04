@@ -1,0 +1,5 @@
+"Tabela N para N sem nome, cria-se um nome entre as duas tabelas, em ordem alfabética.
+Exemplo: Produto tem relação com Pedido, assim gerará outra tabela com o seu nome pedido_produto."
+
+Este mesmo caso também ocorre em Foreign Keys(Chaves Estrangeiras).
+Exemplo: Na tabela "cidade" possui uma coluna "idCidade" e na tabela "pessoa" existe uma coluna "cidade_idCidade".
