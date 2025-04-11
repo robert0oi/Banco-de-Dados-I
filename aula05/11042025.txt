@@ -2,3 +2,10 @@ Generalização/Especialização
 
 Total e Parcial, simbolizados por um "t" e "p" respectivamente sobre um triângulo isóceles no diagrama ER.
 
+melhorar exercício:
+
+PESSOA --> CLIENTE
+       |
+       L-> ALUNO 
+       |
+       L-> PROFESSOR
