@@ -1,0 +1,9 @@
+Normalização em Banco de Dados(1FN, 2FN, 3FN)
+
+Tabela Não Normalizada = Possui tabelas aninhadas.
+
+Tabela 1FN = Não possui tabelas aninhadas(Cada coluna possui somente valores atômicos[Aqueles valores que não são divisíveis.]).
+
+Tabela 2FN = Não existir coluna não chave primária que depende de parte da chave primária(Dica, se existir somente uma chave primária, e ter os requisitos da 1FN, está na 2FN).
+
+Tabela 3FN = Não contém dependências transitivas(Definição: são aquelas colunas que dependem de outra coluna que não seja a chave primária.).
