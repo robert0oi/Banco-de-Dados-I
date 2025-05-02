@@ -1,1 +1,23 @@
-*Faça uma pesquisa sobre os demais(além de 1FN, 2FN e 3FN) tipos de normalização e escreva um pequeno resumo apresentando-os de forma bem objetiva.*
+Diferentes tipos de normalização de banco de dados
+A normalização é um processo essencial para organizar os dados em um banco de dados relacional, reduzindo a redundância e evitando anomalias de inserção, atualização e exclusão. Existem diferentes formas normais (ou níveis de normalização), cada uma com critérios específicos que tornam a estrutura dos dados mais eficiente.
+
+Primeira Forma Normal (1NF):
+Garante que cada coluna contenha apenas valores atômicos, ou seja, indivisíveis. Cada célula deve conter um único valor e as colunas devem ter nomes distintos.
+
+Segunda Forma Normal (2NF):
+Baseada na 1NF, elimina dependências parciais. Isso significa que todos os atributos que não são chave devem depender totalmente da chave primária.
+
+Terceira Forma Normal (3NF):
+Baseada na 2NF, elimina dependências transitivas. Um atributo que não é chave deve depender unicamente da chave primária, e não de outro atributo não chave.
+
+Forma Normal de Boyce-Codd (BCNF):
+É uma versão mais rigorosa da 3NF. Nesse nível, todo determinante (atributo que define outro) deve ser uma chave candidata, resolvendo algumas anomalias que a 3NF não cobre.
+
+Quarta Forma Normal (4NF):
+Baseada na BCNF, lida com dependências multivaloradas. Ela evita que múltiplos valores independentes sejam armazenados em uma única linha da tabela.
+
+Quinta Forma Normal (5NF):
+É o nível mais avançado de normalização, tratando dependências de junção. Divide as tabelas de forma que a reconstrução por junções mantenha a integridade dos dados sem redundância.
+
+
+Fonte: https://www.datacamp.com/pt/tutorial/normalization-in-sql
