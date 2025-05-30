@@ -199,14 +199,24 @@ ORDER BY nome;
 
 -- SEGUNDO EXERCÍCIO
 -- Monte uma consulta que retorna o nome e a data de nascimento, somente das pessoas que nasceram até o dia 15.
+
+-- SELECT nomePessoa, nascimento,
+--	DATE_FORMAT(nascimento, '%d/%m/%Y') AS 'Data de Nascimento'
+-- FROM pessoa
+-- WHERE nascimento LIKE '%d' <= 15; -- <--- Errado, tem que corrigir!!!!!!
+-- Correção:
 SELECT nomePessoa, nascimento,
 	DATE_FORMAT(nascimento, '%d/%m/%Y') AS 'Data de Nascimento'
 FROM pessoa
-WHERE nascimento LIKE '%d' <= 15;
+WHERE DATE_FORMAT(nascimento, '%d') <= 15; -- També é possível utilizar as funções "EXTRACT()" e "DAY()"
+
 
 -- TERCEIRO EXERCÍCIO
 -- Monte uma consulta que retorna o nome do produto o valor em Reais de estoque de cada produto.
 SELECT nome, preco 
+FROM produto
+WHERE 
+ORDER BY -- nome do produto
 
 
 -- QUARTO EXERCÍCIO
