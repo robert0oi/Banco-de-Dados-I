@@ -213,12 +213,15 @@ WHERE DATE_FORMAT(nascimento, '%d') <= 15; -- També é possível utilizar as fu
 
 -- TERCEIRO EXERCÍCIO
 -- Monte uma consulta que retorna o nome do produto o valor em Reais de estoque de cada produto.
-SELECT nome, preco 
+SELECT nome, preco, quantidade,
+    -- Completar aqui;
 FROM produto
-WHERE 
-ORDER BY -- nome do produto
+WHERE quantidade > 0
+ORDER BY nome;
 
 
 -- QUARTO EXERCÍCIO
 -- Monte uma consulta que retorna qual valor em Reais do estoque inteiro.
-
+SELECT SUM(preco * quantidade) AS 'Valor Total em Estoque'
+FROM produto
+WHERE quantidade > 0; -- Para não puxar produto sem estoque
