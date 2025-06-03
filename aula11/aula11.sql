@@ -214,10 +214,10 @@ WHERE DATE_FORMAT(nascimento, '%d') <= 15; -- També é possível utilizar as fu
 -- TERCEIRO EXERCÍCIO
 -- Monte uma consulta que retorna o nome do produto o valor em Reais de estoque de cada produto.
 SELECT nome, preco, quantidade,
-    -- Completar aqui;
+    (preco * quantidade) AS 'Valor em Reais de Estoque'
 FROM produto
 WHERE quantidade > 0
-ORDER BY nome;
+ORDER BY nome; -- Assim virá o valor de cada produto, em ordem alfabética.
 
 
 -- QUARTO EXERCÍCIO
