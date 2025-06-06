@@ -281,3 +281,8 @@ LEFT JOIN categoria c ON c.idCategoria = cp.codCategoria
 WHERE c.idCategoria IS NULL;
 
 -- Monte uma consulta que retorna as pessoa, juntamente com o nome da sua cidade, mas só das pessoas que moram en cidades que tenham a letra A no nome ordenando pelo nome das pessoas.
+
+SELECT p.idPessoa, p.nomePessoa, c.nome
+FROM pessoa p
+INNER JOIN cidade c ON p.codCidade = c.idCidade
+WHERE c.nome LIKE '%a%'
