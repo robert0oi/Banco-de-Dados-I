@@ -263,7 +263,7 @@ SELECT produto.idProduto, produto.nome, categoria.idCategoria, categoria.nome
 FROM produto
 JOIN categoria_produto ON categoria_produto.codProduto = produto.idProduto
 JOIN categoria ON categoria_produto.codCategoria = categoria.Idcategoria;
--- Errado
+-- Errado, pois nesta consulta, é retornado somente os produtos que possuem alguma categoria cadastrada.
 
 -- Correção:
 SELECT p.idProduto, p.nome, p.preco, c.nome
